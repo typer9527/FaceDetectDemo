@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="horizontal">
+
+    <org.opencv.android.JavaCameraView
+        android:id="@+id/camera_view"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/switch_camera"
+        android:layout_width="43dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/ic_camera" />
+</LinearLayout>
